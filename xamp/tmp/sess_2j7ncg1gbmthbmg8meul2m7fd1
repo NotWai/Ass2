@@ -1,0 +1,67 @@
+ PMA_token |s:32:"3b2a4b2f2c54353b7575352151752729"; HMAC_secret |s:16:"9o@\As`@3$F3YaD\";browser_access_time|a:1:{s:7:"default";i:1720346915;}relation|a:1:{i:1;a:41:{s:7:"version";s:5:"5.2.1";s:4:"user";N;s:2:"db";N;s:8:"bookmark";N;s:15:"central_columns";N;s:11:"column_info";N;s:17:"designer_settings";N;s:16:"export_templates";N;s:8:"favorite";N;s:7:"history";N;s:16:"navigationhiding";N;s:9:"pdf_pages";N;s:6:"recent";N;s:8:"relation";N;s:13:"savedsearches";N;s:12:"table_coords";N;s:10:"table_info";N;s:13:"table_uiprefs";N;s:8:"tracking";N;s:10:"userconfig";N;s:10:"usergroups";N;s:5:"users";N;s:12:"bookmarkwork";b:0;s:8:"mimework";b:0;s:18:"centralcolumnswork";b:0;s:8:"commwork";b:0;s:9:"menuswork";b:0;s:20:"designersettingswork";b:0;s:11:"displaywork";b:0;s:19:"exporttemplateswork";b:0;s:12:"favoritework";b:0;s:7:"navwork";b:0;s:7:"pdfwork";b:0;s:10:"recentwork";b:0;s:7:"relwork";b:0;s:17:"savedsearcheswork";b:0;s:11:"historywork";b:0;s:12:"trackingwork";b:0;s:11:"uiprefswork";b:0;s:14:"userconfigwork";b:0;s:8:"allworks";b:0;}}userconfig|a:2:{s:2:"db";a:1:{s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1720346862;}two_factor_check|b:1;cache|a:3:{s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1720346862;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1447170388;s:9:"userprefs";a:1:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}s:13:"server_1_root";a:17:{s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:9:"Databases";s:3:"sql";s:3:"SQL";s:6:"status";s:6:"Status";s:6:"rights";s:5:"Users";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:8:"settings";s:8:"Settings";s:6:"binlog";s:10:"Binary log";s:11:"replication";s:11:"Replication";s:4:"vars";s:9:"Variables";s:7:"charset";s:8:"Charsets";s:7:"plugins";s:7:"Plugins";s:6:"engine";s:7:"Engines";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:5:"query";s:5:"Query";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:9:"operation";s:10:"Operations";s:10:"privileges";s:10:"Privileges";s:8:"routines";s:8:"Routines";s:6:"events";s:6:"Events";s:8:"triggers";s:8:"Triggers";s:8:"tracking";s:8:"Tracking";s:8:"designer";s:8:"Designer";s:15:"central_columns";s:15:"Central columns";}s:17:"menu-levels-table";a:11:{s:6:"browse";s:6:"Browse";s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:6:"insert";s:6:"Insert";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:10:"privileges";s:10:"Privileges";s:9:"operation";s:10:"Operations";s:8:"tracking";s:8:"Tracking";s:8:"triggers";s:8:"Triggers";}s:19:"profiling_supported";b:1;s:12:"is_superuser";b:1;s:14:"mysql_cur_user";s:14:"root@localhost";s:12:"is_grantuser";b:1;}s:13:"version_check";a:2:{s:8:"response";s:411:"{
+    "version": "5.2.1",
+    "date": "2023-02-08",
+    "releases": [
+        {
+            "version": "5.2.1",
+            "date": "2023-02-08",
+            "php_versions": ">=7.2,<8.3",
+            "mysql_versions": ">=5.5"
+        },
+        {
+            "version": "4.9.11",
+            "date": "2023-02-08",
+            "php_versions": ">=5.5,<8.0",
+            "mysql_versions": ">=5.5"
+        }
+    ]
+}";s:9:"timestamp";i:1720346807;}}tmpval|a:16:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:1:{i:0;a:2:{s:2:"db";s:11:"passmanager";s:5:"table";s:4:"user";}}}s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:11:"passmanager";s:5:"query";a:10:{s:32:"330bbec16fe55bcf020a684af52c62c4";a:8:{s:3:"sql";s:116:"--
+-- Indexes for table `car`
+--
+ALTER TABLE `car`
+  ADD PRIMARY KEY (`car_id`),
+  ADD UNIQUE KEY `model` (`model`);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"0ac56f6e5c1b9b0929a6ebbce47e95d5";a:8:{s:3:"sql";s:161:"--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`user_id`),
+  ADD UNIQUE KEY `username` (`username`),
+  ADD UNIQUE KEY `email` (`email`);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"afb4a43dc55fdb6493862400fe22a379";a:8:{s:3:"sql";s:182:"--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `booking`
+--
+ALTER TABLE `booking`
+  MODIFY `booking_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"78ca6fda35841d3a51af0b6060840857";a:8:{s:3:"sql";s:127:"--
+-- AUTO_INCREMENT for table `car`
+--
+ALTER TABLE `car`
+  MODIFY `car_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"443525888e524ed233dfe5db75cf1f1f";a:8:{s:3:"sql";s:130:"--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `user_id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"3e7fd625c0239fb392a518f314c2661c";a:8:{s:3:"sql";s:7:"COMMIT;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"835df80251ea27180c767fe3b29e07a1";a:8:{s:3:"sql";s:63:"/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"eca8f86c10e0770d32eeb25e11a5dac8";a:8:{s:3:"sql";s:65:"/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"41356cde6826c9d723ed45acbc13a06f";a:8:{s:3:"sql";s:63:"/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2b03fa0b460c2882043c6a272c79442c";a:8:{s:3:"sql";s:20:"SELECT * FROM `user`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:13:"table_uiprefs";a:1:{i:1;a:1:{s:11:"passmanager";a:1:{s:4:"user";a:0:{}}}}s:20:"possible_as_geometry";b:1;}git_location|N;is_git_revision|b:0;ConfigFile1|a:2:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}flashMessages|a:0:{}__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}Import_message|a:2:{s:7:"message";s:216:"<div class="alert alert-success" role="alert">
+  <img src="themes/dot.gif" title="" alt="" class="icon ic_s_success"> <em>Import has been successfully finished, 23 queries executed.</em> (passmanager (1).sql)
+</div>
+";s:11:"go_back_url";s:47:"index.php?route=/database/import&db=passmanager";}is_multi_query|b:0;sql_history|a:3:{i:0;a:3:{s:2:"db";s:11:"passmanager";s:5:"table";s:0:"";s:8:"sqlquery";s:467:"--
+-- Database: `passmanager`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `booking`
+--
+
+CREATE TABLE `booking` (
+  `booking_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `car_id` int(11) NOT NULL,
+  `booking_date` date DEFAULT NULL,
+  `status` varchar(50) NOT NULL,
+  `total_fee` double DEFAULT NULL,
+  `start_date` date DEFAULT NULL,
+  `end_date` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";}i:1;a:3:{s:2:"db";s:11:"passmanager";s:5:"table";s:0:"";s:8:"sqlquery";s:63:"/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;";}i:2;a:3:{s:2:"db";s:11:"passmanager";s:5:"table";s:4:"user";s:8:"sqlquery";s:20:"SELECT * FROM `user`";}}errors|a:0:{}
