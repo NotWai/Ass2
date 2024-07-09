@@ -33,6 +33,7 @@
                     $_SESSION["email"] = $row["email"];
                     $_SESSION["user_type"] = $row["user_type"];
                     $_SESSION["session_id"] = rand(100000,999999); 
+                    $_SESSION["lastact"] = time();
 
                     // prepare and bind
                     $stmt = $conn->prepare("UPDATE user SET session_id = ? WHERE user_id = ?");
